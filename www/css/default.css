@@ -66,28 +66,23 @@ div.events{
 }
 
 .event-icon{
-	height: 5em;
-
+	
 	overflow: hidden;
+	height: 5em;
 	width: 100%;
 	padding: 0.4em 0 0.4em 0.4em;
 	border-bottom: 1px solid #ccc;
 	background:#fff;
-
 }
-
-
 
 .event-icon img{
 
 	background: url('../img/ajax-loader.gif');
-
 	background-repeat:no-repeat;
 	background-position:center; 
 	background-size:1em 1em;
-	width: 5em;
-	/*width: 25%;*/
 	margin-right: 0.4em;
+	width: 5em;
 	height: 5em;
 	float: left;
 }
@@ -96,42 +91,29 @@ div.events{
 
 	height: 100%;
 	padding: 0.2em 0 0.3em 0.3em;
-
-
-
 }
 
 .event-icon .event-icon-text div.event-place {
-
 
 	margin: 0.5em 0.3em 0.5em 0;
 	font-size: 0.8em;
 	font-weight: normal;
 }
 
-
 .event-icon .event-icon-text .event-date {
 
 	color: gray;
 	font-size: 0.9em;
-
 	padding-right: 1em;
-
-    
-   float: right;
-
+   	float: right;
 }
 
 .event-icon .event-icon-text div.event-title {
+
 	height: 70%;
 	font-weight: bold;
 	padding-right: 0.3em;
-	/*white-space: nowrap;*/
-
-
-	
-
-	
+	/*white-space: nowrap;*/	
 }
 
 div.content.ui-content{
