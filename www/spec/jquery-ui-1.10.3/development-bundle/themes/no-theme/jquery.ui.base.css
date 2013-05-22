@@ -1,0 +1,25 @@
+/*!
+ * jQuery UI CSS Framework 1.10.3
+ * http://jqueryui.com
+ *
+ * Copyright 2013 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming
+ */
+@import url("jqueryhejapp .ui.core.css");
+
+@import url("jqueryhejapp .ui.accordion.css");
+@import url("jqueryhejapp .ui.autocomplete.css");
+@import url("jqueryhejapp .ui.button.css");
+@import url("jqueryhejapp .ui.datepicker.css");
+@import url("jqueryhejapp .ui.dialog.css");
+@import url("jqueryhejapp .ui.menu.css");
+@import url("jqueryhejapp .ui.progressbar.css");
+@import url("jqueryhejapp .ui.resizable.css");
+@import url("jqueryhejapp .ui.selectable.css");
+@import url("jqueryhejapp .ui.slider.css");
+@import url("jqueryhejapp .ui.spinner.css");
+@import url("jqueryhejapp .ui.tabs.css");
+@import url("jqueryhejapp .ui.tooltip.css");

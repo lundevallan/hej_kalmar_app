@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*
+*{
+	
+}*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clear{
+	display: block;
+	clear: both;
+}
+
+/*----------------startpage-----------------*/
+
+div.events{
+
+
+}
+
+.event-icon{
+	height: 5em;
+
+	overflow: hidden;
+	width: 100%;
+	padding: 0.4em 0 0.4em 0.4em;
+	border-bottom: 1px solid #ccc;
+
+}
+
+.event-icon img{
+
+	/*width: 25%;*/
+	padding-right: 0.4em;
+	height: 100%;
+	float: left;
+}
+
+.event-icon .event-icon-text{
+
+	height: 100%;
+	padding: 0.2em 0 0.3em 0.3em;
+
+
+
+}
+
+.event-icon .event-icon-text div.event-place {
+
+
+	margin: 0.5em 0.3em 0.5em 0;
+	font-size: 0.8em;
+	font-weight: normal;
+}
+
+
+.event-icon .event-icon-text .event-date {
+
+	color: gray;
+	font-size: 0.9em;
+
+	padding-right: 1em;
+
+    
+   float: right;
+
+}
+
+.event-icon .event-icon-text div.event-title {
+	height: 70%;
+	font-weight: bold;
+	padding-right: 0.3em;
+	/*white-space: nowrap;*/
+
+
+	
+
+	
+}
+
+div.content.ui-content{
+
+	padding: 0;
+}
+
+
