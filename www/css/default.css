@@ -72,14 +72,23 @@ div.events{
 	width: 100%;
 	padding: 0.4em 0 0.4em 0.4em;
 	border-bottom: 1px solid #ccc;
+	background:#fff;
 
 }
 
+
+
 .event-icon img{
 
+	background: url('../img/ajax-loader.gif');
+
+	background-repeat:no-repeat;
+	background-position:center; 
+	background-size:1em 1em;
+	width: 5em;
 	/*width: 25%;*/
-	padding-right: 0.4em;
-	height: 100%;
+	margin-right: 0.4em;
+	height: 5em;
 	float: left;
 }
 

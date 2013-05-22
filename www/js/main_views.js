@@ -170,7 +170,7 @@ HejApp.Index = Backbone.View.extend({
 
 
 
-					this.$('.events').prepend("<p class='update' style='height: 5em; boder-bottom: 1px solid #ccc; '>Uppdaterar...</p>");
+					this.$('.events').prepend("<p class='update' style='height: 5em; border-bottom: 1px solid #ccc; padding-left: 0.4em; line-height:5em;'>Uppdaterar...</p>");
 					$('p.update').hide();
 
 					window.ontouchmove = function(e) {
@@ -255,7 +255,7 @@ HejApp.Index.Events = Backbone.View.extend({
 	},
 	title: function (){return this.model.get("title")},
 	place: function (){return this.model.get("place")},
-	icon: function (){return this.model.get("image_fullsize")},
+	icon: function (){return this.model.get("icon_image_large")},
 	date: function (){return this.model.get("start_date_long")},
 	time: function (){return this.model.get("time")},
 	
